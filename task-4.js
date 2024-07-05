@@ -4,11 +4,11 @@ function getShippingCost(country) {
       const price = 100;
       return `Shipping to ${country} will cost ${price} credits`;
     case "Chile":
-      const price = 250;
+      return `Shipping to Chile will cost 250 credits`;
     case "Australia":
-      const price = 170;
+      return `Shipping to Australia will cost 170 credits`;
     case "Jamaica":
-      const price = 120;
+      return `Shipping to Jamaica will cost 120 credits`;
     default:
       return "Sorry, there is no delivery to your country";
   }
