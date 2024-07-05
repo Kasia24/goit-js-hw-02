@@ -1,8 +1,8 @@
 function formatMessage(message, maxLength) {
   if (message <= maxLength) {
-    return message;
+    console.log(message.length);
   } else {
-    return message(maxLength) + "...";
+    return message + "...";
   }
 }
 
