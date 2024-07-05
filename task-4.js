@@ -1,8 +1,8 @@
 function getShippingCost(country) {
-  console.log(`Shipping to ${country} will cost ${price} credits`);
   switch (country) {
     case "China":
       const price = 100;
+      return `Shipping to ${country} will cost ${price} credits`;
     case "Chile":
       const price = 250;
     case "Australia":
